@@ -1,0 +1,9 @@
+; Example 14.2.3
+
+IF 3 EQ 2 THEN BEGIN
+   a = 3
+ENDIF ELSE BEGIN
+   a = 2
+ENDELSE
+PRINT, a
+END

@@ -1,0 +1,8 @@
+; Example 14.2.4
+
+FOR i=1,4 DO BEGIN
+  IF i EQ 2 THEN CONTINUE
+  IF i EQ 3 THEN BREAK
+  PRINT, i
+ENDFOR
+END

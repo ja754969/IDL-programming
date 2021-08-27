@@ -1,0 +1,9 @@
+title = 'Figure 6.2.3'
+xsize=216 & ysize=162
+@ ../widget
+
+z = DIST(200, 200)
+
+CONTOUR, z, NLEVELS=5, C_LABELS=REPLICATE(1, 5), C_CHARSIZE=0.7, C_LINESTYLE=INDGEN(5), C_COLORS=[0, 100]
+
+END

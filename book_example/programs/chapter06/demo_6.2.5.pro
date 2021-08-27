@@ -1,0 +1,10 @@
+title = 'Figure 6.2.5'
+xsize=216 & ysize=162
+@ ../widget
+
+z = DIST(200, 200)
+
+CONTOUR, z, NLEVELS=5, /FILL, C_SPACING=0.1, C_ORIENTATION=INDGEN(5)*72
+CONTOUR, z, NLEVELS=5, /OVERPLOT
+
+END
